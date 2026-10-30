@@ -9,7 +9,7 @@ Static single page (`index.html` + `assets/`): garden-estate cover with a
 wax-sealed envelope; tapping pops out the childhood photos, which fly into
 cameo frames on the first page. Grid-paper inside pages (bow + cherry accents),
 BM/EN switch, background music, butterflies, Save the Date + Maps, programme,
-countdown, Add to Calendar, doa, couple gallery, money-gift popup.
+countdown, Add to Calendar, doa, couple gallery.
 
 Personalise the `WEDDING` settings block in `index.html`; see `POST-BUILD.md`.
 
