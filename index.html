@@ -715,8 +715,8 @@
   }
 
   /* ---------- RSVP ---------- */
-  const RSVP_ENDPOINT = '/api/rsvp?side=bride';
-  const GUEST_GROUP_VALUES = ['Relatives', 'Friends', "Bride's Friends and Colleagues"];
+  const RSVP_ENDPOINT = '/api/rsvp?side=groom';
+  const GUEST_GROUP_VALUES = ['Relatives', 'Friends', "Groom's Friends and Colleagues"];
   const form = $('#rsvpForm'), thanks = $('#rsvpThanks');
   let lastGroupIndex = -1, lastReply = null, submitting = false;
   const attending = () => (form.querySelector('input[name=attending]:checked') || {}).value;
@@ -765,7 +765,7 @@
 
   function renderGroupOptions() {
     const t = I18N[LANG], list = $('#groupList');
-    const labels = t.guestgroup_labels('Alya');
+    const labels = t.guestgroup_labels('Hakim');
     list.innerHTML = labels.map((label, i) =>
       `<li class="csel-opt" role="option" data-value="${GUEST_GROUP_VALUES[i]}" data-index="${i}" aria-selected="${i === lastGroupIndex}">${label}</li>`).join('');
     if (lastGroupIndex >= 0) { $('#guestGroup').value = GUEST_GROUP_VALUES[lastGroupIndex]; $('#groupBtnVal').textContent = labels[lastGroupIndex]; }
@@ -832,7 +832,7 @@
       name, phone, attendance: att,
       guestCount, guestGroup,
       message: $('#rNotes').value.trim(),
-      side: 'bride'
+      side: 'groom'
     };
     $('#formErr').style.display = 'none';
 
