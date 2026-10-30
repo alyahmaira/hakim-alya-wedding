@@ -27,6 +27,10 @@ original `wedding-groom` repo used.
 3. A guest's own reply is remembered on their phone (they see the thank-you
    card and can send another).
 
+The Apps Script behind `GROOM_RSVP_ENDPOINT` lives in `apps-script/Code.gs`.
+Its `SHEET_TABS` must match `GUEST_GROUP_VALUES` in `index.html` exactly, or
+the script rejects the submission.
+
 ## Bottom bar
 Utama · Lokasi · RSVP · Hubungi — appears after the envelope is opened and highlights the section in view.
 
