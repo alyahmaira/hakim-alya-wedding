@@ -5,8 +5,8 @@ Static site: `index.html` + `assets/`. No build step.
 ## Personalise
 Edit the `WEDDING` settings block near the bottom of `index.html`:
 - `photos.bride` / `photos.groom` — childhood photos (portrait, face near the top). Put files in `assets/photos/`.
-  Both currently use `kid-placeholder.jpg`.
-- `musicSrc` — e.g. `'assets/music.mp3'`. Empty = built-in music-box tune. Use a song you have rights to.
+  Currently `bride-kid.jpg` / `groom-kid.jpg`.
+- `music.youtubeId` / `music.startTime` — YouTube video ID and start-time (seconds) for the background music, played via a hidden YouTube IFrame player.
 - `contacts` — 2 family contacts: `name`, `role` (BM + EN), `phone` in international digits (e.g. `60123456789`).
   Each gets a WhatsApp button (pre-filled greeting) and a Call button.
 - `mapsUrl`, `calendarUrl`, `start` (countdown target, Malaysia time).
