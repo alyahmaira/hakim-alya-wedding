@@ -7,8 +7,9 @@ Edit the `WEDDING` settings block near the bottom of `index.html`:
 - `photos.bride` / `photos.groom` — childhood photos (portrait, face near the top). Put files in `assets/photos/`.
   Currently `bride-kid.jpg` / `groom-kid.jpg`.
 - `music.youtubeId` / `music.startTime` — YouTube video ID and start-time (seconds) for the background music, played via a hidden YouTube IFrame player.
-- `contacts` — 2 family contacts: `name`, `role` (BM + EN), `phone` in international digits (e.g. `60123456789`).
-  Each gets a WhatsApp button (pre-filled greeting) and a Call button.
+- `contacts` — 3 family contacts: `name`, `role` (BM + EN), `phone` in international digits (e.g. `60123456789`).
+  Each gets a WhatsApp button (pre-filled greeting) and a Call button. Avatars are flat
+  cartoon-icon SVGs (`assets/photos/icon-father.svg` etc.), not real photos.
 - `mapsUrl`, `calendarUrl`, `start` (countdown target, Malaysia time).
 
 ## RSVP → serverless proxy → Google Sheet
