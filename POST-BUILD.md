@@ -36,12 +36,12 @@ family `contacts` entries' real names/phones/photos, and programme times/items
 site since it's the same event.
 
 ## Run locally
-`python3 -m http.server 8080` inside `version-2/`, then open http://localhost:8080
+`python3 -m http.server 8080` in the repo root, then open http://localhost:8080
 
 ## Deploy (any static host)
-- **Netlify Drop**: drag the `version-2` folder onto https://app.netlify.com/drop
-- **Vercel**: `npx vercel` inside `version-2/`
-- **GitHub Pages / Cloudflare Pages**: publish the `version-2` folder as the site root
+- **Netlify Drop**: drag this repo's root folder onto https://app.netlify.com/drop
+- **Vercel**: `npx vercel` in the repo root
+- **GitHub Pages / Cloudflare Pages**: publish the repo root as the site root
 
 After deploying, change `og:image` in `<head>` to the full URL (e.g. `https://your-site/assets/scene.jpg`)
 so WhatsApp/Telegram link previews show the garden image.
