@@ -46,8 +46,8 @@
     display:flex;flex-direction:column;align-items:center;padding-top:clamp(56px,14vh,140px);box-shadow:0 0 60px rgba(60,30,20,.25)}
   .stage::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,240,235,.25),rgba(255,240,235,0) 45%,rgba(60,30,20,.15))}
   .welcome{position:relative;text-align:center;color:#6b4a3a;text-shadow:0 1px 12px rgba(255,245,235,.9);animation:fadeUp 1.6s ease both;transition:opacity .6s}
-  .welcome .script{font-size:clamp(32px,9.5vw,40px);color:var(--maroon)}
-  .welcome small{display:block;font-size:13px;letter-spacing:5px;margin-bottom:6px;color:#7a5a46}
+  .welcome .script{font-size:clamp(32px,9.5vw,40px);color:var(--burgundy)}
+  .welcome small{display:block;font-size:13px;letter-spacing:5px;margin-bottom:6px;color:var(--burgundy)}
   .envwrap{position:relative;margin-top:clamp(60px,13vh,130px);width:min(300px,76vw);animation:float 4s ease-in-out infinite, fadeUp 1.6s .4s ease both}
   .env{position:relative;z-index:2;width:100%;height:auto;display:block;border-radius:6px;filter:drop-shadow(0 18px 24px rgba(60,30,20,.35));transition:opacity .6s .45s, transform .9s .3s}
   .tap{position:relative;margin-top:22px;font-style:italic;font-size:17px;color:#fff;text-shadow:0 1px 8px rgba(60,30,20,.7);animation:pulse 2s ease-in-out infinite;transition:opacity .4s}
@@ -55,7 +55,7 @@
   .kphoto{position:absolute;z-index:1;width:39%;aspect-ratio:118/152;top:16%;padding:2.4% 2.4% 9.3%;background:var(--print);box-shadow:0 8px 18px rgba(40,25,15,.35);
     opacity:0;transition:transform 1.5s cubic-bezier(.34,1.4,.64,1), opacity .45s}
   .k1{left:13%}.k2{right:13%}
-  .cap{position:absolute;left:0;right:0;bottom:7%;text-align:center;font-family:'EB Garamond',Georgia,serif;font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--maroon)}
+  .cap{position:absolute;left:0;right:0;bottom:7%;text-align:center;font-family:'EB Garamond',Georgia,serif;font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--burgundy)}
   .cover.pop{cursor:default}
   .cover.pop .envwrap{animation:none}
   .cover.pop .kphoto{opacity:1}
@@ -562,13 +562,13 @@
     contacts: [                                         // phone in international format, digits only (60 = Malaysia)
       { name: 'Zulkhainain', role: { ms: 'Bapa Pengantin', en: "Groom's Father" }, phone: '601139962194',
         avatar: 'assets/photos/icon-father.svg',
-        msg: { ms: 'Jemput hadir memeriahkan majlis perkahwinan putera sulung kami!', en: 'Please join us in celebrating the wedding of our eldest son!' } },
+        msg: { ms: 'Semoga kehadiran dan doa restu tuan/puan menyerikan majlis perkahwinan putera kami <3', en: 'May your presence and blessings brighten the wedding of our son <3' } },
       { name: 'Roshayati', role: { ms: 'Ibu Pengantin', en: "Groom's Mother" }, phone: '601163349486',
         avatar: 'assets/photos/icon-mother.svg',
-        msg: { ms: 'Kehadiran dan doa restu anda amat kami hargai.', en: 'Your presence and prayers mean a great deal to us.' } },
+        msg: { ms: 'Kehadiran dan doa restu anda amat kami hargai <3', en: 'Your presence and prayers mean a great deal to us <3' } },
       { name: 'Muhammad Haziq', role: { ms: 'Adik Pengantin', en: "Groom's Brother" }, phone: '60173980429',
         avatar: 'assets/photos/icon-brother.svg',
-        msg: { ms: 'Tak pasti jalan ke ISTAC? Saya boleh bantu!', en: 'Not sure how to get to ISTAC? I can help!' } }
+        msg: { ms: 'Jom raikan hari bahagia Akim! kehadiran korang amat kami alu alukan.', en: "Come celebrate Akim's big day! We'd love to have you there." } }
     ],
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=ISTAC-IIUM%2C%2024%20Persiaran%20Tuanku%20Syed%20Sirajuddin%2C%2050480%20Kuala%20Lumpur',
     wazeUrl: 'https://waze.com/ul?q=ISTAC-IIUM%2C%2024%20Persiaran%20Tuanku%20Syed%20Sirajuddin%2C%2050480%20Kuala%20Lumpur&navigate=yes',
