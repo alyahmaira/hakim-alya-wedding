@@ -12,14 +12,14 @@
 <meta property="og:title" content="Walimatul Urus · Hakim &amp; Alya">
 <meta property="og:description" content="Sabtu, 26 Disember 2026 · 11.00 pagi – 4.00 petang · ISTAC, Bukit Tunku">
 <meta property="og:image" content="assets/scene.jpg">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40'%3E%3Cpath d='M30 18C21 6 7 6 8 15c1 10 14 9 22 3Zm0 0c9-12 23-12 22-3-1 10-14 9-22 3Z' fill='none' stroke='%231f3d2b' stroke-width='3'/%3E%3Cpath d='M28 19 21 35M32 19l7 16' stroke='%231f3d2b' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='30' cy='18' r='4' fill='%231f3d2b'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40'%3E%3Cpath d='M30 18C21 6 7 6 8 15c1 10 14 9 22 3Zm0 0c9-12 23-12 22-3-1 10-14 9-22 3Z' fill='none' stroke='%236e1a28' stroke-width='3'/%3E%3Cpath d='M28 19 21 35M32 19l7 16' stroke='%236e1a28' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='30' cy='18' r='4' fill='%236e1a28'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Amiri&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="assets/scene.jpg">
 <link rel="preload" as="image" href="assets/envelope.jpg">
 <style>
-  :root{--cream:#f7f1e5;--sage:#4b5a2c;--olive:#3c4620;--burgundy:#1f3d2b;--gold:#c9a35c;--ink:#4a3a2c;--print:#fbf7ee;--col:480px;
+  :root{--cream:#f7f1e5;--sage:#4b5a2c;--olive:#3c4620;--burgundy:#1f3d2b;--maroon:#6e1a28;--gold:#c9a35c;--ink:#4a3a2c;--print:#fbf7ee;--col:480px;
     --vh:100vh}
   @supports (height:100svh){:root{--vh:100svh}}
   *{box-sizing:border-box;margin:0;padding:0}
@@ -120,7 +120,7 @@
   .lang button{border:0;background:transparent;font:700 12px/1 'EB Garamond',serif;letter-spacing:1.5px;color:var(--burgundy);padding:8px 11px;border-radius:16px;cursor:pointer}
   .lang button.on{background:var(--burgundy);color:#f7efe2}
   .vinyl{width:42px;height:42px;border-radius:50%;
-    background:radial-gradient(circle,var(--cream) 0 4px,var(--burgundy) 5px 11px,transparent 12px),repeating-radial-gradient(circle,#2b1c1a 0 2px,#3d2724 2px 3px);box-shadow:0 4px 10px rgba(0,0,0,.3)}
+    background:radial-gradient(circle,var(--cream) 0 4px,var(--maroon) 5px 11px,transparent 12px),repeating-radial-gradient(circle,#2b1c1a 0 2px,#3d2724 2px 3px);box-shadow:0 4px 10px rgba(0,0,0,.3)}
   .playing .vinyl{animation:spin 4s linear infinite}
   .music span{font-size:20px;color:var(--olive);-webkit-text-stroke:.3px var(--olive)}
   .music .bars{display:flex;gap:2px;align-items:flex-end;height:12px}
@@ -144,11 +144,11 @@
   .pc-top{display:flex;justify-content:space-between;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid rgba(31,61,43,.15)}
   .to{font-size:13px;font-weight:700;letter-spacing:3.5px;text-transform:uppercase;color:var(--sage)}
   .to b{display:block;margin-top:2px;font-family:'Pinyon Script',cursive;font-size:30px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--burgundy);line-height:1.2}
-  .stamp{flex:none;width:44px;height:54px;padding:4px;background:var(--burgundy);
+  .stamp{flex:none;width:44px;height:54px;padding:4px;background:var(--maroon);
     -webkit-mask:radial-gradient(circle 2.4px,transparent 96%,#000) -2.4px -2.4px/6.4px 6.4px;mask:radial-gradient(circle 2.4px,transparent 96%,#000) -2.4px -2.4px/6.4px 6.4px}
-  .stamp span{width:100%;height:100%;background:#f3e8d2;display:flex;align-items:center;justify-content:center;font:italic 500 13px 'EB Garamond',serif;color:var(--burgundy)}
-  .postmark{position:absolute;top:18px;right:58px;width:52px;height:52px;border-radius:50%;border:1px solid rgba(31,61,43,.28);transform:rotate(-12deg);pointer-events:none;
-    display:flex;align-items:center;justify-content:center;text-align:center;font-size:6.5px;letter-spacing:1.5px;line-height:1.6;color:rgba(31,61,43,.45)}
+  .stamp span{width:100%;height:100%;background:#f3e8d2;display:flex;align-items:center;justify-content:center;font:italic 500 13px 'EB Garamond',serif;color:var(--maroon)}
+  .postmark{position:absolute;top:18px;right:58px;width:52px;height:52px;border-radius:50%;border:1px solid rgba(110,26,40,.28);transform:rotate(-12deg);pointer-events:none;
+    display:flex;align-items:center;justify-content:center;text-align:center;font-size:6.5px;letter-spacing:1.5px;line-height:1.6;color:rgba(110,26,40,.45)}
   .prow{margin-top:20px}
   .prow > .lb,.prow > label{display:block;font-size:13px;font-weight:700;letter-spacing:3.5px;text-transform:uppercase;color:var(--sage)}
   .pin{width:100%;font:500 19px/1.4 'EB Garamond',Georgia,serif;color:var(--ink);color:var(--burgundy);background:transparent;border:0;border-bottom:1px solid rgba(31,61,43,.25);
@@ -337,7 +337,7 @@
 <div id="pageBackdrop" aria-hidden="true"></div>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <symbol id="bow" viewBox="0 0 60 40"><path d="M30 18C21 6 7 6 8 15c1 10 14 9 22 3Zm0 0c9-12 23-12 22-3-1 10-14 9-22 3Z" fill="none" stroke="#1f3d2b" stroke-width="1.8"/><path d="M28 19 21 35M32 19l7 16" stroke="#1f3d2b" stroke-width="1.8" stroke-linecap="round"/><circle cx="30" cy="18" r="3" fill="#1f3d2b"/></symbol>
+    <symbol id="bow" viewBox="0 0 60 40"><path d="M30 18C21 6 7 6 8 15c1 10 14 9 22 3Zm0 0c9-12 23-12 22-3-1 10-14 9-22 3Z" fill="none" stroke="#6e1a28" stroke-width="1.8"/><path d="M28 19 21 35M32 19l7 16" stroke="#6e1a28" stroke-width="1.8" stroke-linecap="round"/><circle cx="30" cy="18" r="3" fill="#6e1a28"/></symbol>
   </defs>
 </svg>
 
@@ -1029,8 +1029,8 @@
   function startButterflies(){
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const colours = [
-      ['#a9c9b0', '#7fa88a'], ['#2e5940', '#1f3d2b'], ['#a9c9b0', '#6e8f77'],
-      ['#c9a35c', '#a97f3a'], ['#2e5940', '#6e8f77'], ['#a9c9b0', '#1f3d2b']
+      ['#a9c9b0', '#7fa88a'], ['#2e5940', '#1f3d2b'], ['#d99aa5', '#8b2232'],
+      ['#c9a35c', '#a97f3a'], ['#2e5940', '#6e1a28'], ['#a9c9b0', '#1f3d2b']
     ];
     let W = innerWidth, H = innerHeight;
     addEventListener('resize', () => { W = innerWidth; H = innerHeight; });
