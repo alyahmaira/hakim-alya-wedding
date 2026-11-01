@@ -693,7 +693,7 @@
 
   function renderGuestOptions() {
     const list = $('#guestsList'), current = $('#guests').value || '1';
-    list.innerHTML = [1, 2].map(n =>
+    list.innerHTML = [1, 2, 3, 4].map(n =>
       `<li class="csel-opt" role="option" data-value="${n}" aria-selected="${String(n) === current}">${n}</li>`).join('');
   }
   makeDropdown({
